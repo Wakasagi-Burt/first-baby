@@ -1,16 +1,32 @@
+/* main page nav */
 .navbar {
-    font-family: 'Special Elite', cursive;
-    border-bottom: 4px solid; 
+    font-family: 'Contrail One', cursive;
+
 }
 
 .navbar-brand {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
     text-shadow: 3px 3px 7px black;
 }
 
 .navbar-nav {
     font-size: 20px;
-    text-decoration: underline;
     text-shadow: 3px 3px 7px black;
+}
+
+/* main page jumbotron */
+
+.jumbotron {
+    background-image: url(https://images.hdqwalls.com/wallpapers/noir-5k-2t.jpg);
+    background-size: cover;  
+}
+
+.jumbo-head {
+    font-weight: 300;
+}
+
+.lead {
+    font-weight: 300;
+    font-size: 25px;
 }
