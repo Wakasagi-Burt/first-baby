@@ -57,7 +57,8 @@
 
 /* genre navbar */
 
-#sidebar {
-    
+.wrapper {
+    text-decoration: none;
+    color: white
 }
 
