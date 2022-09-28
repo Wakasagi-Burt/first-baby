@@ -15,3 +15,14 @@
     text-decoration: underline;
     text-shadow: 3px 3px 7px black;
 }
+
+/* styling for the grid.html page */
+.row{
+    background-color:  rgb(202, 202, 129);
+    height: 200px;
+}
+.col{
+background-color: rgb(159, 213, 224);
+justify-content: space-between;
+
+}
