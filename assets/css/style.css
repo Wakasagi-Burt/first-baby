@@ -19,10 +19,10 @@
 /* styling for the grid.html page */
 .row{
     background-color:  rgb(202, 202, 129);
-    height: 200px;
+    height: 300px;
+    justify-content: space-around;
 }
 .col{
-background-color: rgb(159, 213, 224);
-justify-content: space-between;
+background-color: rgb(122, 204, 221);
 
 }
