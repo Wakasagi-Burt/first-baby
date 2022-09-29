@@ -1,7 +1,9 @@
 
+
 .navbar {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite',cursive;
     border-bottom: 4px solid; 
+
 }
 
 .navbar-brand {
@@ -16,4 +18,15 @@
     text-shadow: 3px 3px 7px black;
 }
 
+.nav-item a{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
 
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}

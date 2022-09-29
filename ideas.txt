@@ -1,0 +1,14 @@
+What:
+a site to search movies by title or genre from an international database with apis (search by name, genre, or keyword)
+movie descriptions and where to buy or stream them
+ create of list of movies they have searched and want to watch for the future (with tags on list to navigate back to that movie desc. page)
+
+forms for movie/genre suggestions
+
+main nav genres search bar
+main popular or trending right now on carousel with text
+.card on main aside with form possibly reccommend us movies or suggestions for site
+
+
+***what to watch list, search for movie,***
+
