@@ -17,12 +17,14 @@
 }
 
 /* styling for the grid.html page */
-.row{
-    background-color:  rgb(202, 202, 129);
-    height: 300px;
-    justify-content: space-around;
+.container-fluid{
+    background-color:  rgb(177, 220, 34);
+    height: 200px;
+    
 }
-.col{
-background-color: rgb(122, 204, 221);
+   
+    
+   
+    
+    
 
-}
