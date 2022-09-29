@@ -12,3 +12,9 @@ main popular or trending right now on carousel with text
 
 ***what to watch list, search for movie,***
 
+
+
+searchbar js
+
+search input "" when that input is filled click the btn which event lister with a function that fetchs api data and populates movie list html page with selections as anchors
+
