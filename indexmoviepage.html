@@ -6,40 +6,52 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/moviestyle.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
     <title>Film Detective &#x1F50D</title>
   </head>
 
   <body>
     <header>
-        <ul class="nav justify-content-end navbar-dark bg-danger ms-auto">
-            <a class="navbar-brand" href="index.html">Film Detective &#x1F50D</a>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">My Watchlist</a>
+      <nav class="navbar navbar-expand-lg navbar-dark ms-auto">
+        <a class="navbar-brand" href="index.html">Film Detective</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">My Watchlist</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">About Us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
+        </div>
+      </nav>
+    </header>
+
           <div class="container">
             <h3 class = "text-center">Movie Title</h3>
-            <img src="https://media.istockphoto.com/vectors/cinema-poster-with-cola-filmstrip-and-clapper-vector-vector-id1244034031?k=20&m=1244034031&s=612x612&w=0&h=WFpMBZ7PfLCJrK4F9764OsAls0NbOJOza8CIiP3Yfc8=" class="rounded mx-auto d-block" alt="Movie Selected">
+            <img src="https://media.istockphoto.com/vectors/cinema-poster-with-cola-filmstrip-and-clapper-vector-vector-id1244034031?k=20&m=1244034031&s=612x612&w=0&h=WFpMBZ7PfLCJrK4F9764OsAls0NbOJOza8CIiP3Yfc8=" class="rounded mx-auto d-block" alt="Movie Selected" height="400px">
           </div>
-          <div class="card" style="width: 30rem;">
+          <br>
+        <div class="container">
+          <div class="card movie-card text-center mr-auto" style="width: 50rem;">
             <div class="card-body">
               <h5 class="card-title">Movie Title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Tagline</h6>
               <p class="card-text">Movie Description</p>
               <h6 class="card-subtitle mb-2">Avaliable to watch on</h6>
-              <ul>
               <li class="card-text">These sites</li>
               <li class="card-text">These sites</li>
               <li class="card-text">These sites</li>
-            </ul>
+          
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
@@ -48,9 +60,10 @@
               </div>
             </div>
           </div>
+          </div>
          
 
-    </header>
+    
     <script src = "./js/moviepg.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

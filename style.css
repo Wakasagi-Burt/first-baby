@@ -86,5 +86,12 @@ main a {
     font-family: 'Contrail One', cursive;
     text-decoration: underline;
     font-size: 30px;
+    
 }
 
+/* movie page */
+
+.movie-card {
+   position: relative;
+   left: 150px;
+}
