@@ -1,0 +1,111 @@
+/* main page nav */
+.navbar {
+    font-family: 'Contrail One', cursive;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: 900;
+    padding-left: 50px;
+}
+
+.navbar-nav {
+    font-size: 28px;
+    padding-right: 50px;
+}
+
+/* main page jumbotron */
+
+main {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.jumbotron {
+    background-image: url(https://images.hdqwalls.com/wallpapers/noir-5k-2t.jpg);
+    background-size: cover; 
+    margin-bottom: 0; 
+}
+
+.jumbo-head {
+    font-weight: 300;
+}
+
+.lead {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* carousel */
+
+.carousel-main {
+    position: relative;
+    max-width: 1000px;
+    left: 35%;
+    bottom: 668px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 5px;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.car-head {
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+    color: white;
+}
+
+/* genre navbar */
+
+.wrapper {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-right: 76%;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 5px;
+}
+
+main a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.sidebar-header {
+    font-family: 'Contrail One', cursive;
+}
+
+.side-p {
+    font-family: 'Contrail One', cursive;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+
+/* movie page */
+
+.movie-card {
+   position: relative;
+   left: 150px;
+}
+
+/* about/contact */
+
+.site-head {
+    font-family: 'Contrail One', cursive;
+    font-size: 50px;
+}
+
+.site-contain {
+    margin-top: 80px;
+    border: 2px solid rgb(199, 214, 58);
+    box-shadow: 0px 0px 50px white;
+    border-radius: 5px;
+}
