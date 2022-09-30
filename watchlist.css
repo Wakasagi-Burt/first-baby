@@ -1,0 +1,16 @@
+.navbar {
+    font-family: 'Special Elite', cursive;
+    border-bottom: 4px solid; 
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 3px 7px black;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    text-decoration: underline;
+    text-shadow: 3px 3px 7px black;
+}
