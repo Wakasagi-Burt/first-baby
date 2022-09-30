@@ -22,7 +22,7 @@
       
       
       
-      
+      // declared function collectioninfo to fetch information from API key
       function collectInfo(){
         var newList = document.getElementById("movie-search");
         var movieTitle = document.getElementById("movie-input");
