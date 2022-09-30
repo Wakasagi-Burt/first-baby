@@ -11,7 +11,14 @@ console.log(collectInfo)
 // using fetch method to retrieve data from Api and giving condition to work on
 fetch('https://api.themoviedb.org/3/movie/550?api_key=cb0a27fc2effad207407997a55dc7c30')
 .then((response) => response.json())
-.then((data) => console.log(data));
+.then(function (data){
+  console.log(data);
+  var example = document.getElementById("example-title");
+  example.textContent = data.title;
+  var image = document.getElementById("")
+image.
+//'https://image.tmdb.org/t/p/w300_and_h450_bestv2/'+data.poster.path;
+});
 
 // using another fetchmethod to get info
 fetch('http://www.omdbapi.com/?i=tt3896198&apikey=4fca7de8')
