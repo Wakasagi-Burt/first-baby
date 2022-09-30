@@ -17,7 +17,9 @@
       // .then(response => response.json())
       // .then(data =>{
       //   console.log(data);
-      // 
+      // https://api.themoviedb.org/3/movie/?q=+ movieRequest.value +api_key=e46479163adf8296196ce28dcb4704e5
+      // https://www.omdbapi.com/? q=+ movieRequest.value + i=tt3896198&apikey=4fca7de8
+      
       
       
       
@@ -25,16 +27,16 @@
         var newList = document.getElementById("movie-search");
         var movieTitle = document.getElementById("movie-input");
         console.log(movieTitle);
-        newList.innerHTML = movieRequest.value;
-        console.log(movieRequest.value);
+        // newList.innerHTML = movieRequest.value;
+        // console.log(movieRequest.value);
       }
         
-        fetch('https://api.themoviedb.org/3/movie/550?q=+ movieRequest.value +api_key=e46479163adf8296196ce28dcb4704e5')
-           .then((response) => response.json())
-           .then((data) => console.log(data));
-
-
-           fetch('https://www.omdbapi.com/? q=+ movieRequest.value + i=tt3896198&apikey=4fca7de8')
+        // fetch('')
+        //    .then((response) => response.json())
+        //    .then((data) => console.log(data));
+           
+           
+           fetch('http://www.omdbapi.com/?i=tt3896198&apikey=4fca7de8')
            .then((response) => response.json())
            .then((data) => console.log(data));
       
