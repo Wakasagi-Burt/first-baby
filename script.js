@@ -6,20 +6,20 @@ document.getElementById("searchBtn").addEventListener("click", collectInfo);
 
 function collectInfo(event) {
   event.preventDefault();
-  movieTitle = document.getElementById("movie-input").value;
-  var stringval = ;
-  console.log(movieTitle.toString());
-  fetch('https://api.themoviedb.org/3/search/movie?api_key=cb0a27fc2effad207407997a55dc7c30&language=en-US&query='+ stringval +"&page=1&include_adult=false")
+  var movieTitle = document.getElementById("movie-input").value;
+
+  console.log(movieTitle);
+   fetch('https://api.themoviedb.org/3/search/movie?api_key=cb0a27fc2effad207407997a55dc7c30&language=en-US&query='+ movieTitle +"&page=1&include_adult=false")
   .then((response) => response.json())
   .then(function (data) {
-    console.log(data)
+   console.log(data.results[0])
     // var example = document.getElementById("example-title");
     // example.textContent = data.title;
     // example.textContent = data.title;
     // var image = document.getElementById("example-image");
     // image.src ='https://image.tmdb.org/t/p/w300_and_h450_bestv2/'+data.poster_path;
- })
-}
+})
+ }
 
 
 
