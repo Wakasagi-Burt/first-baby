@@ -3,8 +3,7 @@ var newList = document.getElementById("movie-search");
 var example = document.getElementById("example-title");
 var genreSel = document.getElementById("selection");
 document.getElementById("searchBtn").addEventListener("click", collectInfo);
-document.getElementById("nextbtn").addEventListener("click", nextpage);
-document.getElementById("nextbtn").addEventListener("click", followingpage);
+
 
 function collectInfo(event) {
   event.preventDefault();
@@ -26,6 +25,10 @@ function collectInfo(event) {
   var image3 = document.getElementById("im3");
   image2.src = "https://image.tmdb.org/t/p/w185" + data.results[1].poster_path;
   image3.src = "https://image.tmdb.org/t/p/w185" + data.results[2].poster_path;
+  fetch('http://www.omdbapi.com/?t='+movieTitle+'&apikey=4fca7de8')
+  .then((response) => response.json())
+  .then((data) => console.log(data));
+
 })
  }
 
